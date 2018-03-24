@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Greeting Endpoints</title>
+
+<!--  Load the Google APIs Javascript client library -->
+<script src="greet.js"></script>
+<!--  Will Call the init function, which is defined in greet.js -->
+<script src="https://apis.google.com/js/client.js?onload=init"></script>
+</head>
+<body>
+
+	<div
+		style="text-align: center; margin: 50px auto; height: 200px; padding: 30px; width: 400px; border: 1px solid black; background: lightgray">
+		<H3>My First Endpoints App</H3>
+		<div style="text-align: left;">
+
+			<P>
+				Name: <input value="Peter" id="name_field"> <input
+					id="by_name" type="button" value="Hold on"
+					onclick="function will execute">
+			</P>
+
+			<P>
+				Time Period: <select id="period_select">
+					<option value="Morning" selected>Morning</option>
+					<option value="Afternoon">Afternoon</option>
+					<option value="Evening">Evening</option>
+					<option value="Night">Night</option>
+				</select> <input id="by_period" type="button" value="Hold on"
+					onclick="function will execute">
+			</P>
+		</div>
+	</div>
+</body>
+
+
+</html>
+
+
+
+
+
